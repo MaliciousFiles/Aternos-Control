@@ -120,36 +120,7 @@ async def help(ctx):
   ***Commands*** | Prefix is `>`, or slash command
   **namecolor <color>**: *Sets your name color to **<color>**, which can be a Hex [#ffffff], RGB [rgb(255, 255, 255)], or a Preset [white]. `None` to clear.*
   **help**: *Shows this help page.*
-  ------------------------------------------------------------
-  ***Presets***
-  >>> 1. Default
-  2. Red
-  3. Dark Red
-  4. Orange
-  5. Dark Orange
-  6. Gold
-  7. Dark Gold
-  8. Green
-  9. Dark Green
-  10. Teal
-  11. Dark Teal
-  12. Blue
-  13. Dark Blue
-  14. Blurple
-  15. Magenta
-  16. Dark Magenta
-  17. Purple
-  18. Dark Purple
-  19. Greyple
-  20. Lighter Gray / Grey
-  21. Light Gray / Grey
-  22. Gray / Grey
-  23. Dark Gray / Grey
-  24. Darker Gray / Grey
-  25. Dark Theme
-  26. Random
-  27. Expanded Random
-  """, colour=discord.Colour.green())
+  ------------------------------------------------------------""", colour=discord.Colour.green())
   await ctx.send(embed=embed)
 
 app = Flask('')
