@@ -1,0 +1,6 @@
+gevent
+discord
+flask
+selenium
+flask_compress
+discord-py-slash-commands
